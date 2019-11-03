@@ -6,8 +6,8 @@ body {
     background:rgb(211, 214, 213);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    margin: 0;
-    padding: 0;
+    margin: 20px;
+    padding: 20px;
 }
 header {
     background: #ffffff;
@@ -25,7 +25,7 @@ header::after {
 
 .navbar { 
     width: 960px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .Name {
@@ -44,14 +44,14 @@ header::after {
 .links {
     float: right;
     background: #ffffff;
-    padding: 0;
+    padding: 20px;
     list-style: none;
 }
 
 li {
     display: inline-block;
     margin-left: 20px;
-    padding-top: 22px;
+    padding-top: 20px;
 
     position: relative;
 }
@@ -96,7 +96,7 @@ main {
 
 .container {
     width: 900px;
-    margin: 10px;
+    margin: 20px;
     
 }
 
@@ -111,17 +111,19 @@ h2 {
 
 #image {
     float: left;
-    margin: 10px 20px 10px 0;
+    margin: 10px 20px 10px 10px;
 }
 
 p {
     padding-top: 5px;
     margin-top: 5px;
+   
 }
 
 hr {
+    margin: 20px
     color: rgb(211, 214, 213);
-    width:900px;
+    width:960px;
 }
 
 footer {
@@ -233,4 +235,20 @@ footer {
 .text-wrapper p {
     text-align: center;
     color: #ffffff;
+}
+
+@media only screen and (max-width: 980px) {
+    .container {
+        padding: 0 20px;
+        max-width: 768px;
+    }
+        
+    .main {
+        max-width:420px;
+      
+    }
+}
+.container-portfolio {
+    padding:0 20px;
+    max-width: 768px;
 }
